@@ -10,7 +10,7 @@ Link to Hugging Face model upload for more details on training: https://huggingf
 
 In the future, providing a larger pretraining dataset for BERT or perhaps processing the definition and the masked word separately could improve accuracy. However, even running 5000 words across 5 epochs took just under 20 hours, so there were significant computational limits on training.
 # Time Spent
-On the final iteration of the model: ~15 hours of design
+On the final iteration of the model: ~15 hours
 
 Previous iteration and attempts: ~10 hours
 
