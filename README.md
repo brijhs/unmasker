@@ -17,4 +17,4 @@ Previous iteration and attempts: ~10 hours
 General learning of Pytorch, Hugging Face, and associated ML packages/concepts: ~10 hours
 
 # Instructions for running
-The model is built to be run from CLI using modelTester.py; it can be accompanied by a file name to test with (e.g. python3 modelTester.py testSet.csv), however by default it uses the provided testSet.csv as the test file to generate results. However, since this model does not work, the results are returned as empty lists. 
+The model is built to be run from CLI using modelTester.py; it can be accompanied by a file name to test with (e.g. python3 modelTester.py testSet.csv). By default, with just python3 modelTester.py in the CLI, it will use testSet.csv and print results. However, since this model does not work, the results are returned as empty lists. 
