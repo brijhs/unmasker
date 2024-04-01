@@ -18,3 +18,5 @@ General learning of Pytorch, Hugging Face, and associated ML packages/concepts: 
 
 # Instructions for running
 Model is built to be run from CLI using modelTester.py; it can be accompanied by a file name to test with (e.g. python3 modelTester.py alternateFile.csv), however by default it uses the provided testSet.csv as the test file to generate results. However, since this model does not work, the results are returned as empty lists. 
+
+It is only necessary to have the testfile and modelTester.py locally. Required packages: PyTorch, Hugging Face transformers and datasets, and Python pandas. 
