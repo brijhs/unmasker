@@ -2,7 +2,7 @@
 Unsuccessful approach to unmasking words using AI model
 
 # Experimental Design 
-Used various approaches, first starting with building a linear model with LSTM layers to process definition and masked words separately and then concatenate. Then, I added a BERT layer to process the definition and take its hidden state. Both approaches had too much loss and did not grasp the meanings of the inputs correctly. The code can be found under previous_iterations. 
+Used various approaches, first starting with building a linear model with LSTM layers to process definition and masked words separately and then concatenate. Then, I added a BERT layer to process the definition and take its hidden state. Both approaches had too much loss and did not grasp the meanings of the inputs correctly. The code can be found under previousModel.ipynb. 
 
 The final strategy was to use Hugging Face's bert-base-uncased and pre-train it on 5000 words across 5 epochs. This result was also unsuccessful, yielding an average loss that plateaued around 0.2029. However, the predictions, using the softmax activation function, yielded only [PAD] tokens for BERT's .decode() function. Ultimately, no useful predictions were made by this model. 
 
