@@ -15,3 +15,9 @@ On the final iteration of the model: ~15 hours of design
 Previous iteration and attempts: ~10 hours
 
 General learning of Pytorch, Hugging Face, and associated ML packages/concepts: ~10 hours
+<<<<<<< HEAD
+
+# Instructions for running
+Model is built to be run from CLI using modelTester.py; it can be accompanied by a file name to test with, however by default it uses the provided testSet.csv as the test file to generate results. However, since this model does not work, the results are returned as empty lists. 
+=======
+>>>>>>> 5c4ef554301021adfa0b61d18243f38fe9c37261
