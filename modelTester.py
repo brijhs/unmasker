@@ -9,7 +9,6 @@ import torch.nn.functional as F #for the activation function
 from torch.utils.data import DataLoader
 import sys
 from datasets import Dataset
-from nltk.corpus import wordnet
 from torch.nn.functional import softmax 
 
 #Find test file: supports input from user on CLI
@@ -55,9 +54,6 @@ def spaceWord(word):
         newList.append(' ')
 
     return ''.join(newList)
-
-def getFirstDef(word): 
-    return wordnet.synsets(word)[0].definition()
 
 def tokenize_maskOnly(example):
     return tokenizer(example['masked'], padding = "max_length", max_length = 128, truncation = True)
